@@ -1,0 +1,26 @@
+.light-mode {
+  /* Colors */
+  --background-color: #FFFFFF; /* white */
+  --text-color: #000000; /* black */
+  --link-color: #1E90FF; /* Dodger Blue */
+  --header-color: #F1F1F1; /* Light Grey */
+
+  /* Typography */
+  --font-family: 'Arial', sans-serif;
+  --font-size: 16px;
+  --line-height: 1.5;
+}
+
+.light-mode h1, .light-mode h2, .light-mode h3 {
+  font-weight: bold;
+  margin: 0;
+}
+
+.light-mode a {
+  text-decoration: none;
+  color: var(--link-color);
+}
+
+.light-mode a:hover {
+  text-decoration: underline;
+}
